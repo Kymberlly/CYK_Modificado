@@ -1,0 +1,7 @@
+4
+A =aAB|B
+B = T
+C = cC | CD
+D = dd
+3
+a, c, d
