@@ -17,6 +17,12 @@ public class Gramatica {
     private ArrayList<Transicoes> transicoes = new ArrayList<>();
     private String[]alfabeto;
     private String partida;
+    private String[]nao_terminais;
+    private String[]terminais;
+    private String[] anulaveis;
+    private String[] relacaoUnitaria;
+    private String[] naoTerminaisDisponiveis;
+    private String[] relacaoUnitariaReversa;
     
     public Gramatica(){}
     public Gramatica(ArrayList<Transicoes> transicoes, String[]alfabeto, String partida){
